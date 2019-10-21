@@ -53,7 +53,7 @@ that is items separated with semicolons. The **pos** attribute for the `<item>` 
 All items are sub strings when they are part of the configuration string but can be typed withing the `<item>` tag with the **type** attribute. Valid types are
 
  | Type | Description |
- | :----:  | ----------- 1|
+ | :----:  | ----------- |
  | **string**  | The should be interpreted as a sting                                                     |
  | **boolean** | The item should be interpreted as a boolean. Valid values are TRUE, FALSE, 0, 1          |
  | **int32**   | A signed integer. The attributes **max** and **min** can be used to specify limits       |
