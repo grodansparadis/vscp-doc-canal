@@ -13,12 +13,12 @@ CANAL has been constructed from a need to use CAN in the form of control network
 
 CANAL is tightly coupled with the Very Simple Control Protocol, VSCP and the VSCP daemon. This is a protocol constructed for SOHO control situations. The model has been constructed as a two-layer model so that the VSCP Daemon can also be useful for people that are just  interested in CAN and not in VSCP. You can find more information about vscp at https://www.vscp.org.
 
-CANAL is open and free to use with no restrictions, as is the above software, which is released under GPL/LGPL.
+CANAL is open and free to use with no restrictions, as is the above software, which is released under MIT license.
 
 Current information about CANAL, the VSCP Daemon and VSCP (Very Simple Control Protocol) can be found at https://www.vscp.org.
 
 The library is licensed under [the  MIT License](https://opensource.org/licenses/MIT) so it can be used freely in opne and closed project.
 
-Viewable/downloadable documentation is [here](https://grodansparadis.gitbooks.io/the-vscp-helper-library)
+Viewable/downloadable documentation is [here](https://grodansparadis.gitbooks.io/canal-can-abstraction-layer/content/)
 
 {% include "./bottom_copyright.md" %}
