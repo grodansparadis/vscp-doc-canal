@@ -10,7 +10,7 @@ You can either use the library in binary form as a set of C exported functions e
 
 The library is currently available for Unix/Linux and for Windows. It should be posible to port to Mac and other systems.
 
-The library is licensense: under [the  MIT License](https://opensource.org/licenses/MIT) so it can be used freely in opne and closed project.
+The library is licensed under [the  MIT License](https://opensource.org/licenses/MIT) so it can be used freely in opne and closed project.
 
 Viewable/downloadable documentation is [here](https://grodansparadis.gitbooks.io/the-vscp-helper-library)
 
