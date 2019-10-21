@@ -4,7 +4,6 @@
 
 Author 2000-2019 Åke Hedman, [Grodans Paradis AB](http://www.grodansparadis.com), &lt;[akhe@grodansparadis.com](mailto:akhe@grodansparadis.com)&gt;
 
-
 CANAL (CAN Abstraction Layer) is a very simple approach to interfacing a (logical) CAN module/card or some other (logical) CAN hardware. It is simple and consists mostly of open, close, read, write and filter/mask handling.
 
 The CANAL interface does not need to connect physical hardware. It can be used as an interface to logical items also. This makes it possible to get a common interface to both very diverse hardware and soft interfaces. All which can benefit from a source of common software tools.
