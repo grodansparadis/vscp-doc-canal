@@ -17,7 +17,7 @@ CANAL is open and free to use with no restrictions, as is the above software, wh
 
 Current information about CANAL, the VSCP Daemon and VSCP (Very Simple Control Protocol) can be found at https://www.vscp.org.
 
-The library is licensense: under [the  MIT License](https://opensource.org/licenses/MIT) so it can be used freely in opne and closed project.
+The library is licensed under [the  MIT License](https://opensource.org/licenses/MIT) so it can be used freely in opne and closed project.
 
 Viewable/downloadable documentation is [here](https://grodansparadis.gitbooks.io/the-vscp-helper-library)
 
