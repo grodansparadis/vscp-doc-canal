@@ -6,15 +6,10 @@
 ## API
 * [CANAL API Description](canal_interface_specification.md)
 
-## Using the library
-* [Using the library](using.md)
-* [Return values and erro handling](error_handling.md)
-* [Using with c](c_using.md)
-* [Using with Python](python_using.md)
 
-## Callable methods in library
+## Methods
 
-## The CANAL library
+## The CANAL specification
 * [libcanal](canal_libcanal.md)
 * [Using the library](canal_using.md)
 
