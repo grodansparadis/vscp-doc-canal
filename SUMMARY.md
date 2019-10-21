@@ -4,14 +4,34 @@
 * [CANAL (CAN Abstraction Layer)](README.md)
 
 ## API
-* [CANAL API Description](canal_interface_specification.md)
+* [CanalOpen](canalopen.md)
+* [CanalClose](canalclose.md)
+* [CanalGetLevel](canalgetlevel.md)
+* [CanalSend](canalsend.md)
+* [CanalBlockingSend](canalblockingsend.md)
+* [CanalReceive](canalreceive.md)
+* [CanalBlockingReceive](canalblockingreceive.md)
+* [CanalDataAvailable](canaldataavailable.md)
+* [CanalGetStatus](canalgetstatus.md)
+* [CanalGetStatistics](canalgetstatistics.md)
+* [CanalSetFilter](canalsetfilter.md)
+* [CanalSetMask](canalsetmask.md)
+* [CanalSetBaudrate](canalsetbaudrate.md)
+* [CanalGetVersion](canalgetversion.md)
+* [CanalGetDllVersion](canalgetdllversion.md)
+* [CanalGetVendorString](canalgetvendorstring.md)
+* [CanalGetDriverInfo](canalgetdriverinfo.md)
 
+## Structures
+* [canalMsg](canalMsg.md)
+* [canalStatus](canalStatus.md)
+* [canalStatistics](canalStatistics.md)
 
-## Methods
+## Errors
+* [errors](errors.md)
 
-## The CANAL specification
-* [libcanal](canal_libcanal.md)
-* [Using the library](canal_using.md)
+## History
+* [History](history.md)
 
 ----
 
