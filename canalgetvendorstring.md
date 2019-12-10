@@ -6,4 +6,4 @@ Get a pointer to a null terminated UTF8 vendor string for the maker of the inter
 
 Pointer to a null terminated UTF8 vendor string.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

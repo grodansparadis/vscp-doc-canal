@@ -11,4 +11,4 @@ handle – Handle for open physical/logical interface.
 Return CANAL_ERROR_SUCCESS on success and an error code if something goes wrong.
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

@@ -12,4 +12,4 @@ Get statistics for a CANAL channel
 
 CANAL_ERROR_SUCCESS on success or if not implemented for an interface CANAL_ERROR_NOT_SUPPORTED should always be returned.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

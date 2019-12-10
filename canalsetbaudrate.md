@@ -15,4 +15,4 @@ Enable baudrate settings in the open call if possible. If available in the open 
 
 CANAL_ERROR_SUCCESS on success or if not implemented CANAL_ERROR_NOT_SUPPORTED should always be returned.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

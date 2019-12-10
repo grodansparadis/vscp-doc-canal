@@ -4,6 +4,9 @@
 
 Author 2000-2019 Åke Hedman, [Grodans Paradis AB](http://www.grodansparadis.com), &lt;[akhe@grodansparadis.com](mailto:akhe@grodansparadis.com)&gt;
 
+Document created: *${/var/creation-time}*  
+Specification version: ${/var/document-version} 
+
 CANAL (CAN Abstraction Layer) is a very simple approach to interfacing a (logical) CAN module/card or some other (logical) CAN hardware. It is simple and consists mostly of open, close, read, write and filter/mask handling.
 
 CANAL is used as Level I API for drivers used by [VSCP & Friends](https://www,vscp.org) project software tools. There is a lot of drivers implemented in that project along with source code that can be used as starting points.
@@ -22,4 +25,4 @@ The library is licensed under [the  MIT License](https://opensource.org/licenses
 
 Viewable/downloadable documentation is [here](https://grodansparadis.gitbooks.io/canal-can-abstraction-layer/content/)
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

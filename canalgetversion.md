@@ -6,4 +6,4 @@ Get the Canal version. This is the version derived from the document that has be
 
 CANAL protocol version expressed as an unsigned long with MAJOR_VERSION in first byte, MINOR_VERSION in second byte, RELEASE_VERSION in third byte and BUILD_VERSION in fourth byte. All stored on big endian.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

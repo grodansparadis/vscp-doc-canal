@@ -119,4 +119,4 @@ A real world example (the [can4vscp driver](./level1_driver_can4vscp.md) looks l
 Pointer to a configuration string or NULL if no configuration string is available.
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

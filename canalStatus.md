@@ -34,4 +34,4 @@ typedef struct structCanalStatus {
 
 **lasterrorstr** is a null terminated UTF8 string that describe last error in clear text.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

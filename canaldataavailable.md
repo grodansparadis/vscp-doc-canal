@@ -11,4 +11,4 @@ handle – Handle for open physical/logical interface.
 Number of frames available to read.
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

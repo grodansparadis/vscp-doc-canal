@@ -13,4 +13,4 @@ The instruction should NOT block and instead return an error if unable to direct
 
 CANAL_ERROR_SUCCESS on success or an error code on failure.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

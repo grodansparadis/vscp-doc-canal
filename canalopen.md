@@ -16,4 +16,4 @@ Device specific flags with a meaning defined by the interface creator.
 
 Unsigned long handle for open physical/logic interface or < = 0 on error. The handle is used in subsequent CANAL calls and is valid until [CanalOpen](canalopen,md) is called.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

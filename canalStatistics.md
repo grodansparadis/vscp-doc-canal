@@ -16,4 +16,4 @@ typedef struct structCanalStatistics {
 
 and should not need any extra comments.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

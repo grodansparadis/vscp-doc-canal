@@ -46,4 +46,4 @@ The following error codes are defined by CANAL
 ```
 
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

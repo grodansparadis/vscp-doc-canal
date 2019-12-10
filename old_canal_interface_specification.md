@@ -633,4 +633,4 @@ CANAL_IDFLAG_STATUS can be used by CAN controllers to report status data back to
 *  2004-06-07 – Recovery from version lost in hard disk crash and realest as version 1.00
 *  2003-02-18 – Initial version.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

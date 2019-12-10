@@ -13,4 +13,4 @@ Returns a structure (CANALSTATUS) that gives some information about the state of
 
 CANAL_ERROR_SUCCESS on success or an error code on failure.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')

@@ -29,4 +29,4 @@ CANAL_IDFLAG_STATUS is used to return error frames.
 
 **timestamp** is a relative time in microseconds set by the driver. Set to zero if no timestamp is available.
 
-{% include "./bottom_copyright.md" %}
+[filename](./bottom_copyright.md ':include')
