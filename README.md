@@ -23,6 +23,6 @@ Current information about CANAL, the VSCP Daemon and VSCP (Very Simple Control P
 
 The library is licensed under [the  MIT License](https://opensource.org/licenses/MIT) so it can be used freely in opne and closed project.
 
-Viewable/downloadable documentation is [here](https://grodansparadis.gitbooks.io/canal-can-abstraction-layer/content/)
+Viewable/downloadable documentation is [here](https://docs.vscp.org/#canal)
 
 [filename](./bottom_copyright.md ':include')
