@@ -44,7 +44,7 @@ The returnd XML string have the following format
 </config>
 ```
 
-The configuration string locks like
+The configuration string looks like
 
 >    pos0;pos1;pos2;pos3;pos4;....
 
@@ -54,7 +54,7 @@ All items are sub strings when they are part of the configuration string but can
 
  | Type | Description |
  | :----:  | ----------- |
- | **string**  | The should be interpreted as a sting                                                     |
+ | **string**  | The should be interpreted as a string                                                    |
  | **boolean** | The item should be interpreted as a boolean. Valid values are TRUE, FALSE, 0, 1          |
  | **int32**   | A signed integer. The attributes **max** and **min** can be used to specify limits       |
  | **uint32**  | An unsigned integer. The attributes **max** and **min** can be used to specify limits    |
