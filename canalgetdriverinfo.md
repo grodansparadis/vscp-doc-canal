@@ -15,7 +15,7 @@ The returnd XML string have the following format
 <config>
     <description format="text|html">`Description of the driver`<description>
 	<level>1|2</level>   <!-- Is 1 for a level I driver and 2 for a level II driver -->
-	<blocking>yes|true|no|false</blocking>
+	<blocking>yes|true|1|no|false|0</blocking>
 	<infourl>path to url with info about this item</infourl>
 	<!-- pos is the position on the configuration line i.e.
 	     item0;item1;item2;item3;item4.....
