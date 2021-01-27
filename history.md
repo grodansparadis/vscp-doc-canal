@@ -1,5 +1,7 @@
 # History
 
+* 2921-01-27 AKHE - pos attribute deprecated for items in XML configuration.
+* 2921-01-27 AKHE - int64 and uint64 added as types.
 * 2919-12-10 AKHE - Moved docs to Docsify
 * 2919-10-21 AKHE - Moved CANAL specification to it's own document.
 * 2018-05-28 AKHE - Moved document too Markdown

@@ -7,7 +7,7 @@ The returnd XML string have the following format
 ```xml
 <?xml version = "1.0" encoding = "UTF-8" ?>
 
-<!-- Version 2.0   2015-10-13   -->
+<!-- Version 2.1   2021-01-27   -->
 
 <!-- Configuration strings are given as a semicolon separated list          -->
 <!-- This list is described with and item tag for each configuration option -->
@@ -15,15 +15,15 @@ The returnd XML string have the following format
 <config>
     <description format="text|html">`Description of the driver`<description>
 	<level>1|2</level>   <!-- Is 1 for a level I driver and 2 for a level II driver -->
-	<blocking>yes|no</blocking>
+	<blocking>yes|true|no|false</blocking>
 	<infourl>path to url with info about this item</infourl>
 	<!-- pos is the position on the configuration line i.e.
 	     item0;item1;item2;item3;item4.....
 	-->
 	<items>
-	    <item pos="nn"  optional="true|false" type="string" description="Description about this item" infourl=path to url with info about this item"/>
+	    <item optional="true|false" type="string" description="Description about this item" infourl=path to url with info about this item"/>
 	    <item pos="nn"  optional="true|false" type="number" min="min-value" max="max-value" infourl=path to url with info about this item" />
-	    <item pos="nn"  optional="true|false" type="choice" infourl=path to url with info about this item" >
+	    <item optional="true|false" type="choice" infourl="path to url with info about this item" >
 	        <choice value="0" description = "First choice" />
 	        <choice value="0" description = "Second choice" />
 	        <choice value="0" description = ".............." />
@@ -48,7 +48,9 @@ The configuration string looks like
 
 >    pos0;pos1;pos2;pos3;pos4;....
 
-that is items separated with semicolons. The **pos** attribute for the `<item>` tag is the ordinal for these. Always starting with base zero.
+that is items separated with semicolons. The **pos** attribute for the `<item>` tag that was the ordinal for these is now deprecated. Pos is instead fetched from the items position in the XML file. First item is pos=0,
+
+<blocking> should always be true.
 
 All items are sub strings when they are part of the configuration string but can be typed withing the `<item>` tag with the **type** attribute. Valid types are
 
@@ -58,6 +60,8 @@ All items are sub strings when they are part of the configuration string but can
  | **boolean** | The item should be interpreted as a boolean. Valid values are TRUE, FALSE, 0, 1          |
  | **int32**   | A signed integer. The attributes **max** and **min** can be used to specify limits       |
  | **uint32**  | An unsigned integer. The attributes **max** and **min** can be used to specify limits    |
+ | **int64**   | A signed integer. The attributes **max** and **min** can be used to specify limits       |
+ | **uint64**  | An unsigned integer. The attributes **max** and **min** can be used to specify limits    |
  | **float**   | A floating point value. The attributes **max** and **min** can be used to specify limits |
  | **choice**  | Specify a list with choices that can be set                                              |
 
@@ -75,12 +79,10 @@ A real world example (the [can4vscp driver](./level1_driver_can4vscp.md) looks l
     <blocking>`yes`</blocking>
     <infourl>`https://www.grodansparadis.com/frankfurt/rs232/manual/doku.php?id=the_can4vscp_mode</infourl>
     <items>
-        <item pos="0"
-                type="string"
+        <item type="string"
                 description="Serial port (COM1, COM2...)"
                 infourl="http://www.vscp.org/docs/vscpd/doku.php?id=level1_driver_can4vscp#parameter_string" />
-        <item pos="1"
-                type="choice"
+        <item type="choice"
                 optional="true"
                 description="Baudrate to use for communication with the adapter.Default is 115200 baud. "
                 infourl="http://www.vscp.org/docs/vscpd/doku.php?id=level1_driver_can4vscp#parameter_string" >
