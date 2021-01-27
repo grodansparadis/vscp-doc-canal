@@ -22,7 +22,7 @@ The returnd XML string have the following format
 	-->
 	<items>
 	    <item optional="true|false" type="string" description="Description about this item" infourl=path to url with info about this item"/>
-	    <item pos="nn"  optional="true|false" type="number" min="min-value" max="max-value" infourl=path to url with info about this item" />
+	    <item optional="true|false" type="int32|uint32|int64|uint64|float" min="min-value" max="max-value" infourl="path to url with info about this item" />
 	    <item optional="true|false" type="choice" infourl="path to url with info about this item" >
 	        <choice value="0" description = "First choice" />
 	        <choice value="0" description = "Second choice" />
