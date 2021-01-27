@@ -1,5 +1,6 @@
 * Overview
  * [CANAL (CAN Abstraction Layer)](README.md)
+ * [Developemtn resources](development.md)
  * [History](history.md)
 
 * API
