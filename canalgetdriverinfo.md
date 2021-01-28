@@ -21,9 +21,9 @@ The returnd XML string have the following format
 	     item0;item1;item2;item3;item4.....
 	-->
 	<items>
-	    <item optional="true|yes|1|false|no|0" type="string" description="Description about this item" infourl=path to url with info about this item"/>
-	    <item optional="true|false" type="int32|uint32|int64|uint64|float" min="min-value" max="max-value" infourl="path to url with info about this item" />
-	    <item optional="true|false" type="choice" infourl="path to url with info about this item" >
+	    <item optional="true|yes|1|false|no|0" type="string" description="Description about this item" infourl="path to url with info about this item"/>
+	    <item optional="true|yes|1|false|no|0" type="int32|uint32|int64|uint64|float" min="min-value" max="max-value" infourl="path to url with info about this item" />
+	    <item optional="true|yes|1|false|no|0" type="choice" infourl="path to url with info about this item" >
 	        <choice value="0" description = "First choice" />
 	        <choice value="0" description = "Second choice" />
 	        <choice value="0" description = ".............." />
