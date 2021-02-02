@@ -112,6 +112,7 @@ A real world example (the [can4vscp driver](./level1_driver_can4vscp.md) looks l
         <bit pos="3" width="1" type="bool" description="If this flag is set the driver will wait for an ACK from the physical device for every sent frame. This will slow down sending but make transmission very secure." infourl="http://www.vscp.org/docs/vscpd/doku.php?id=level1_driver_can4vscp#flags" />
         <bit pos="4" width="1" type="bool" description="If this flag is set it enable timestamps in hardware meaning the timestamp will be written by the hardware instead of by the driver. The disadvantage is that it consumes bandwidth." infourl="http://www.vscp.org/docs/vscpd/doku.php?id=level1_driver_can4vscp#flags" />
         <bit pos="5" width="1" type="bool" description="If this flag is set enable hardware handshake. Recommended for lower baudrates to prevent buffer overflows." infourl="http://www.vscp.org/docs/vscpd/doku.php?id=level1_driver_can4vscp#flags" />
+        <bit pos="6" width="2" type="number" description="This is the number of stopbits (0/1/2/3)" infourl="http://www.vscp.org/docs/vscpd/doku.php?id=level1_driver_can4vscp#flags" />
     </flags>
 </config>
 ```
