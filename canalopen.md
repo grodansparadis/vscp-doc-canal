@@ -1,6 +1,6 @@
 # long CanalOpen( const char *pConfigStr, unsigned long flags )
 
-Opens a CAN(AL) channel.
+Opens a CANAL channel.
 
 ## Params
 
@@ -9,7 +9,7 @@ Configuration data such as physical device to connect to. This is the place to a
 
 ### flags
 
-Device specific flags with a meaning defined by the interface creator.
+Device specific flags with a meaning defined by the interface creator. Bit 32 is reserved for debug information.
 
 
 ## Returns
