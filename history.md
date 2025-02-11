@@ -1,9 +1,10 @@
 # History
 
-* 2921-01-27 AKHE - pos attribute deprecated for items in XML configuration.
-* 2921-01-27 AKHE - int64 and uint64 added as types.
-* 2919-12-10 AKHE - Moved docs to Docsify
-* 2919-10-21 AKHE - Moved CANAL specification to it's own document.
+* 2024-08-29 AKHE - Version 2.0 (JSON/XML configuration string, FD support)
+* 2021-01-27 AKHE - pos attribute deprecated for items in XML configuration.
+* 2021-01-27 AKHE - int64 and uint64 added as types.
+* 2019-12-10 AKHE - Moved docs to Docsify
+* 2019-10-21 AKHE - Moved CANAL specification to it's own document.
 * 2018-05-28 AKHE - Moved document too Markdown
 * 2015-10-19 AKHE - Added some more info to CanalGetDriverInfo
 * 2008-10-28 AKHE - Fixed error in status flags. Clarified error status return.

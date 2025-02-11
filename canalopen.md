@@ -5,7 +5,9 @@ Opens a CANAL channel.
 ## Params
 
 ###  pConfigStr
-Configuration data such as physical device to connect to. This is the place to add device specific parameters and initial filters/masks. This is a text string. It can be a name, some parameters or whatever the interface creator chooses. Normally items are separated with a semicolon (";").
+Configuration data such as physical device to connect to. This is the place to add device specific parameters and initial filters/masks. This is a text string. It can be a name, some parameters or whatever the interface creator chooses. 
+
+Normally items are separated with a semicolon (";") but if the string starts with a ´{´ character it should be interpreted as a JSON configuration string. If the string starts with a '<' character it should be intepreted as a XML string.
 
 ### flags
 
